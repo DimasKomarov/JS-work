@@ -28,7 +28,7 @@ function multiplyNumeric(menu) {
     for (key in menu) {
         // Проверка на тип
         if (typeof menu[key] === `number`) menu[key] *= 2;
-        else continue;
+        else continue; // else тут лишний
     }
 }
 alert(menu.width)
