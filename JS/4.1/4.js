@@ -10,7 +10,7 @@ let salaries = {
 
 // Если объект salaries пуст, то результат должен быть 0.
 
-alert( sumSalaries(salaries) )
+alert(sumSalaries(salaries))
 
 function sumSalaries(salaries) {
     let sum = 0;
