@@ -5,3 +5,4 @@ new Promise(function (resolve, reject) {
         throw new Error("Whoops!");
     }, 1000);
 }).catch(console.log);
+
